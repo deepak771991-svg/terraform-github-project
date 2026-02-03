@@ -1,7 +1,7 @@
 resource "azurerm_storage_account" "st2" {
    name = "myterraformbackendsa"
-   resource_group_name      = azurerm_resource_group.rs1.name
-   location                 = azurerm_resource_group.rs1.location
+   resource_group_name      = azurerm_resource_group.one.rs1.name
+   location                 = azurerm_resource_group.one.rs1.location
    account_tier             = "Standard"
    account_replication_type = "LRS"
  }
