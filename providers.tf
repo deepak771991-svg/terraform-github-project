@@ -2,7 +2,7 @@ terraform {
  backend "azurerm" {
    resource_group_name  = "deepak-resource-group-one"
    storage_account_name = "deepakstoragenewaccount1"
-   container_name       = "tfstate"
+   container_name       = "deepakcontainerone-bucket1"
    key                  = "terraform.tfstate"
  }
 }
