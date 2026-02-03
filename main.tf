@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "st2" {
-   name = "myterraformbackendsa"
+   name = "myterraformbackendsb"
    resource_group_name      = azurerm_resource_group.one.name
    location                 = azurerm_resource_group.one.location
    account_tier             = "Standard"
